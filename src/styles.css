@@ -1,0 +1,42 @@
+h1,
+button {
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-bottom: 2px solid #019879;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 16px;
+  text-align: left;
+  padding: 5px;
+}
+
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #019879; /* Green background */
+  color: white; /* White text */
+}
+
+.buttoncontainer {
+  text-align: center;
+}
+
+button {
+  color: white;
+  padding: 5px 15px;
+  border: none;
+  margin: 8px;
+  border-radius: 5px;
+  background-color: #019879;
+}
+
+button:disabled {
+  background-color: grey; /* Disabled button color */
+}
